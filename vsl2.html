@@ -77,7 +77,15 @@
     <link rel="icon" type="image/png" href="./photos/favicon-notice_d7da_5.png">
 	<!--{{HEAD}}-->
 </head>
-
+<script>
+    // Seleciona o elemento que você deseja fazer sumir
+    var elemento = document.getElementById('elemento');
+    
+    // Define um timeout para ocultar o elemento após 1 minuto (60000 milissegundos)
+    setTimeout(function() {
+        elemento.style.display = 'none'; // Define o estilo display como 'none' para ocultar o elemento
+    }, 60000); // 60000 milissegundos = 1 minuto
+</script>
 <body>
 	<!--{{BODY}}-->
     <div class="video-bg">
@@ -90,7 +98,7 @@
                         <h2 class="text-center">
 
     			<b>
-
+                              <div id="elemento">
     				<div svgize="30" class="r-bold">
 
 					    MD: This “1-Minute Sock Trick” Smothers<br>
@@ -98,6 +106,7 @@
         				Foot Fungus For Good
 
     				</div>
+				      </div>
 
                 </b>
 
