@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Muli";
+  src: url("../styles/fonts/webfont-extrabold_ee54_34.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Muli";
+  src: url("../styles/fonts/webfont-bold_d6e8_35.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Muli";
+  src: url("../styles/fonts/webfont_5ab0_36.ttf") format("truetype");
+  font-weight: normal;
+}
