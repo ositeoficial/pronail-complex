@@ -215,4 +215,20 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=664875988953411&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->	
+	<meta http-equiv="delegate-ch" content="sec-ch-ua https://iig0p.bemobtrcks.com; sec-ch-ua-mobile https://iig0p.bemobtrcks.com; sec-ch-ua-arch https://iig0p.bemobtrcks.com; sec-ch-ua-model https://iig0p.bemobtrcks.com; sec-ch-ua-platform https://iig0p.bemobtrcks.com; sec-ch-ua-platform-version https://iig0p.bemobtrcks.com; sec-ch-ua-bitness https://iig0p.bemobtrcks.com; sec-ch-ua-full-version-list https://iig0p.bemobtrcks.com; sec-ch-ua-full-version https://iig0p.bemobtrcks.com">
+
+	<script type="text/javascript">
+function bemobCb(params) {
+    var t = params.trackingDomain+'/click/';
+    var re = new RegExp(t+'?(\\d*)');
+    var e = document.querySelectorAll('a[href*="'+t+'"]');
+    for (var i = 0; i < e.length; i++) {
+        var ex = re.exec(e[i].href);
+        if (ex) {
+            e[i].href = params.ctaSecureUrl.replace('%%OFFER_NUMBER%%', ex[1] || 1);
+        }
+    }
+}
+</script>
+<script type="text/javascript">!function(){var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src="https://iig0p.bemobtrcks.com/landing/1a59f8cd-11a3-4022-8a80-d9ce749c825c?callback=bemobCb&rule=1&path=1&landing=1&"+window.location.search.substring(1);var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)}();</script><noscript><img src="https://iig0p.bemobtrcks.com/landing/1a59f8cd-11a3-4022-8a80-d9ce749c825c?rule=1&path=1&landing=1" alt=""></noscript>
 </html>
